@@ -1,0 +1,23 @@
+name: stem
+channels:
+  - conda-forge
+  - ramonaoptics
+  - ramona_ml
+dependencies:
+  - python=3.12
+  - pip
+  - napari
+  - numpy
+  - pandas
+  - scipy
+  - scikit-image
+  - scikit-learn
+  - matplotlib
+  - opencv
+  - pytorch
+  - torchvision
+  - pip:
+      - geographiclib==2.1
+      - geopy==2.4.1
+      - zaber-motion==7.15.0
+      - owl
